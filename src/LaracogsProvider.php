@@ -6,7 +6,8 @@ use Illuminate\Support\ServiceProvider;
 use Yab\Cerebrum\CerebrumProvider;
 use Yab\CrudMaker\CrudMakerProvider;
 use Yab\Crypto\CryptoProvider;
-use Yab\FormMaker\FormMakerProvider;
+//use Yab\FormMaker\FormMakerProvider;
+use Grafite\FormMaker\FormMakerProvider;
 use Yab\LaraTest\LaraTestProvider;
 use Yab\Laracogs\Console\Activity;
 use Yab\Laracogs\Console\Api;
@@ -45,7 +46,6 @@ class LaracogsProvider extends ServiceProvider
         $this->app->register(CryptoProvider::class);
         $this->app->register(CrudMakerProvider::class);
         $this->app->register(CerebrumProvider::class);
-        $this->app->register(LaraTestProvider::class);
 
         /*
         |--------------------------------------------------------------------------
