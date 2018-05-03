@@ -8,7 +8,6 @@ use Yab\CrudMaker\CrudMakerProvider;
 use Yab\Crypto\CryptoProvider;
 //use Yab\FormMaker\FormMakerProvider;
 use Grafite\FormMaker\FormMakerProvider;
-use Yab\LaraTest\LaraTestProvider;
 use Yab\Laracogs\Console\Activity;
 use Yab\Laracogs\Console\Api;
 use Yab\Laracogs\Console\Billing;
